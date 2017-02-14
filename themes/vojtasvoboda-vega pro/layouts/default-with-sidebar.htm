@@ -32,6 +32,8 @@ function onStart() {
     <link rel='stylesheet' href="{{ ('assets/css/color-schemes/' ~ this.theme.color ~ '.css') | theme }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ 'assets/css/jetpack/jetpack.css' | theme }}" type="text/css" media="all" />
     <link rel="stylesheet" href="{{ 'assets/css/custom.css' | theme }}" type="text/css" media="all" />
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="{{ 'assets/css/materialize.min.css'|theme }}" rel="stylesheet" type="text/css" media="all"/>
     <style type="text/css">
         .qtranxs_flag_en {
             background-image: url({{ 'assets/images/flags/en.png' | theme }}); background-repeat: no-repeat;
@@ -114,6 +116,10 @@ var jpfbembed = {"appid":"249643311490", "locale":"en_US"};
 </script>
 <script type="text/javascript" src="{{ 'assets/js/jetpack/facebook-embed.js' | theme }}"></script>
 <script type="text/javascript" src="{{ 'assets/js/wp-embed.min.js' | theme }}"></script>
+ <script  type="text/javascript"   src="{{ 
+        
+        'assets/js/materialize.min.js'
+        |theme }}"></script>
 {% framework extras %}
 {% scripts %}
 
