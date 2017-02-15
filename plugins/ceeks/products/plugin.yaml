@@ -8,7 +8,7 @@ navigation:
     main-menu-item:
         label: Products
         url: ceeks/products/product
-        icon: icon-puzzle-piece
+        icon: icon-cart-plus
         sideMenu:
             side-menu-item:
                 label: Orders

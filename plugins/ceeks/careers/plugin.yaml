@@ -1,0 +1,16 @@
+plugin:
+    name: 'ceeks.careers::lang.plugin.name'
+    description: 'ceeks.careers::lang.plugin.description'
+    author: 'Martin Guadama'
+    icon: oc-icon-suitcase
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Careers
+        url: ceeks/careers/careers
+        icon: icon-suitcase
+        sideMenu:
+            side-menu-item:
+                label: Category
+                url: ceeks/careers/category
+                icon: icon-sitemap
