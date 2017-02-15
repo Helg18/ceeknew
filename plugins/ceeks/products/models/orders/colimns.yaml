@@ -1,0 +1,30 @@
+columns:
+    id:
+        label: id
+        type: number
+        searchable: true
+        sortable: true
+    client:
+        label: client
+        type: text
+        searchable: true
+        sortable: true
+    address:
+        label: address
+        type: text
+        sortable: true
+    email:
+        label: email
+        type: text
+        sortable: true
+    total:
+        label: total
+        type: number
+        sortable: true
+    phone:
+        label:  Phone
+        type: number
+    status:
+        label: status
+        type: text
+        sortable: truet

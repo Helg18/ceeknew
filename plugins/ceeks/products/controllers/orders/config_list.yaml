@@ -1,0 +1,11 @@
+list: $/ceeks/products/models/orders/colimns.yaml
+modelClass: Ceeks\Products\Models\Orders
+title: Orders
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ceeks/products/orders/update/:id'

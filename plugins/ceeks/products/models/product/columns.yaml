@@ -1,0 +1,35 @@
+columns:
+    id:
+        label: id
+        type: number
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    title:
+        label: title
+        type: 
+        sortable: true
+    short_description:
+        label: short_description
+        type: text
+    description:
+        label: description
+        type: text
+    quantity:
+        label: quantity
+        type: number
+        sortable: true
+    price:
+        label: price
+        type: text
+        sortable: true  
+    status:
+        label: status
+        type: text
+        sortable: true
+    slug:
+        label: slug
+        type: text
