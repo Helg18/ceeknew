@@ -1,4 +1,4 @@
-1487192516a:1:{s:20:"sections/welcome.htm";a:6:{s:8:"fileName";s:20:"sections/welcome.htm";s:7:"content";s:1159:"[viewBag]
+1487198181a:1:{s:20:"sections/welcome.htm";a:6:{s:8:"fileName";s:20:"sections/welcome.htm";s:7:"content";s:1159:"[viewBag]
 snippetCode = "welcome"
 snippetName = "Welcome section"
 snippetProperties[link][title] = "Button link"

@@ -61,11 +61,23 @@ class __TwigTemplate_accf735a4beb39184a001b79d3482415d25ee3c91baad0ad2395ad20f91
 
             <!-- Footer Col 4 -->
             <div class=\"col l4 m4 s12\">
-                <div class=\"widget widget_facebook_likebox\" style=\"padding-top: 75px;\">
+                <div class=\"widget_facebook_likebox\" style=\"padding-top: 75px;\">
                     <h3 class=\"title-footer\" style=\"border-bottom: 2px solid #FFFFFF;color: #ffffff;\">
                         OUR PARTNERS
                     </h3>
                     
+                </div>
+                <div class=\"row\">
+                \t<div class=\"col s5\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/universal.png\" class=\"responsive-img\"></div>
+                \t<div class=\"col s3\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mac.png\" class=\"responsive-img\"></div>
+                \t<div class=\"col s4\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/google.png\" class=\"responsive-img\"></div>
+                \t
+                </div>
+                <div class=\"row\">
+                \t<div class=\"col s6\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mobile.png\" class=\"responsive-img\"></div>
+                \t<div class=\"col s6\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/children.png\" class=\"responsive-img\"></div>
+                \t
+                \t
                 </div>
             </div>
             <!-- /Footer Col 4 -->
@@ -140,11 +152,23 @@ class __TwigTemplate_accf735a4beb39184a001b79d3482415d25ee3c91baad0ad2395ad20f91
 
             <!-- Footer Col 4 -->
             <div class=\"col l4 m4 s12\">
-                <div class=\"widget widget_facebook_likebox\" style=\"padding-top: 75px;\">
+                <div class=\"widget_facebook_likebox\" style=\"padding-top: 75px;\">
                     <h3 class=\"title-footer\" style=\"border-bottom: 2px solid #FFFFFF;color: #ffffff;\">
                         OUR PARTNERS
                     </h3>
                     
+                </div>
+                <div class=\"row\">
+                \t<div class=\"col s5\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/universal.png\" class=\"responsive-img\"></div>
+                \t<div class=\"col s3\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mac.png\" class=\"responsive-img\"></div>
+                \t<div class=\"col s4\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/google.png\" class=\"responsive-img\"></div>
+                \t
+                </div>
+                <div class=\"row\">
+                \t<div class=\"col s6\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mobile.png\" class=\"responsive-img\"></div>
+                \t<div class=\"col s6\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/children.png\" class=\"responsive-img\"></div>
+                \t
+                \t
                 </div>
             </div>
             <!-- /Footer Col 4 -->

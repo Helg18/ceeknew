@@ -1,4 +1,4 @@
-1487193011a:1:{s:15:"footer-blue.htm";a:7:{s:8:"fileName";s:15:"footer-blue.htm";s:7:"content";s:2497:"description = "este es el footer alterno al theme"
+1487198181a:1:{s:15:"footer-blue.htm";a:7:{s:8:"fileName";s:15:"footer-blue.htm";s:7:"content";s:3452:"description = "este es el footer alterno al theme"
 
 [viewBag]
 ==
@@ -47,11 +47,23 @@
 
             <!-- Footer Col 4 -->
             <div class="col l4 m4 s12">
-                <div class="widget widget_facebook_likebox" style="padding-top: 75px;">
+                <div class="widget_facebook_likebox" style="padding-top: 75px;">
                     <h3 class="title-footer" style="border-bottom: 2px solid #FFFFFF;color: #ffffff;">
                         OUR PARTNERS
                     </h3>
                     
+                </div>
+                <div class="row">
+                	<div class="col s5"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/universal.png" class="responsive-img"></div>
+                	<div class="col s3"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mac.png" class="responsive-img"></div>
+                	<div class="col s4"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/google.png" class="responsive-img"></div>
+                	
+                </div>
+                <div class="row">
+                	<div class="col s6"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mobile.png" class="responsive-img"></div>
+                	<div class="col s6"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/children.png" class="responsive-img"></div>
+                	
+                	
                 </div>
             </div>
             <!-- /Footer Col 4 -->
@@ -59,7 +71,7 @@
         </div>
     </div>
 </div>
-";s:5:"mtime";i:1487192409;s:6:"markup";s:2426:"<div class="footer-widgets" style="background-color:#3533ff">
+";s:5:"mtime";i:1487197571;s:6:"markup";s:3381:"<div class="footer-widgets" style="background-color:#3533ff">
     <div class="container">
         <div class="row">
 			
@@ -104,11 +116,23 @@
 
             <!-- Footer Col 4 -->
             <div class="col l4 m4 s12">
-                <div class="widget widget_facebook_likebox" style="padding-top: 75px;">
+                <div class="widget_facebook_likebox" style="padding-top: 75px;">
                     <h3 class="title-footer" style="border-bottom: 2px solid #FFFFFF;color: #ffffff;">
                         OUR PARTNERS
                     </h3>
                     
+                </div>
+                <div class="row">
+                	<div class="col s5"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/universal.png" class="responsive-img"></div>
+                	<div class="col s3"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mac.png" class="responsive-img"></div>
+                	<div class="col s4"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/google.png" class="responsive-img"></div>
+                	
+                </div>
+                <div class="row">
+                	<div class="col s6"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/mobile.png" class="responsive-img"></div>
+                	<div class="col s6"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/children.png" class="responsive-img"></div>
+                	
+                	
                 </div>
             </div>
             <!-- /Footer Col 4 -->
