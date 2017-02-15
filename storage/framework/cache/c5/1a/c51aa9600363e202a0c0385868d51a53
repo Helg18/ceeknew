@@ -1,0 +1,118 @@
+1487193011a:1:{s:15:"footer-blue.htm";a:7:{s:8:"fileName";s:15:"footer-blue.htm";s:7:"content";s:2497:"description = "este es el footer alterno al theme"
+
+[viewBag]
+==
+<div class="footer-widgets" style="background-color:#3533ff">
+    <div class="container">
+        <div class="row">
+			
+            <!-- Footer Col 1 -->
+            <div class="col l2 m4 s12">
+                <a href=""><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/ceek-white.svg" style="width: 100px;"></a>
+                <ul style="padding-top: 15px;" class="linksbold">
+                  <li><a class="grey-text text-lighten-3" href="#!">VR Experiences</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">VR Headset</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">VR Labs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                  
+                </ul>
+               
+            </div>
+            <div class="col l6 m4 s12" >
+            	 <ul class="linksbold">
+            	 <li> &nbsp;</li>
+            	 <li> &nbsp;</li>
+            	 <li> &nbsp;</li>
+            	 <li>&nbsp;</li>
+            	  <li><a class="grey-text text-lighten-3" href="#!">Careers</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">In the News</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Terms</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Privacy</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Healt & Safety</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Support</a></li>
+                  
+                  
+                  </ul>
+            </div>
+            <!-- /Footer Col 1 -->
+
+            <!-- Footer Col 2 -->
+           
+            <!-- /Footer Col 2 -->
+
+            <!-- Footer Col 3 -->
+         
+            <!-- /Footer Col 3 -->
+
+            <!-- Footer Col 4 -->
+            <div class="col l4 m4 s12">
+                <div class="widget widget_facebook_likebox" style="padding-top: 75px;">
+                    <h3 class="title-footer" style="border-bottom: 2px solid #FFFFFF;color: #ffffff;">
+                        OUR PARTNERS
+                    </h3>
+                    
+                </div>
+            </div>
+            <!-- /Footer Col 4 -->
+
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1487192409;s:6:"markup";s:2426:"<div class="footer-widgets" style="background-color:#3533ff">
+    <div class="container">
+        <div class="row">
+			
+            <!-- Footer Col 1 -->
+            <div class="col l2 m4 s12">
+                <a href=""><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/img/ceek-white.svg" style="width: 100px;"></a>
+                <ul style="padding-top: 15px;" class="linksbold">
+                  <li><a class="grey-text text-lighten-3" href="#!">VR Experiences</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">VR Headset</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">VR Labs</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                  
+                </ul>
+               
+            </div>
+            <div class="col l6 m4 s12" >
+            	 <ul class="linksbold">
+            	 <li> &nbsp;</li>
+            	 <li> &nbsp;</li>
+            	 <li> &nbsp;</li>
+            	 <li>&nbsp;</li>
+            	  <li><a class="grey-text text-lighten-3" href="#!">Careers</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">In the News</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Terms</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Privacy</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Healt & Safety</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Support</a></li>
+                  
+                  
+                  </ul>
+            </div>
+            <!-- /Footer Col 1 -->
+
+            <!-- Footer Col 2 -->
+           
+            <!-- /Footer Col 2 -->
+
+            <!-- Footer Col 3 -->
+         
+            <!-- /Footer Col 3 -->
+
+            <!-- Footer Col 4 -->
+            <div class="col l4 m4 s12">
+                <div class="widget widget_facebook_likebox" style="padding-top: 75px;">
+                    <h3 class="title-footer" style="border-bottom: 2px solid #FFFFFF;color: #ffffff;">
+                        OUR PARTNERS
+                    </h3>
+                    
+                </div>
+            </div>
+            <!-- /Footer Col 4 -->
+
+        </div>
+    </div>
+</div>";s:4:"code";N;s:11:"description";s:34:"este es el footer alterno al theme";s:7:"viewBag";a:0:{}}}

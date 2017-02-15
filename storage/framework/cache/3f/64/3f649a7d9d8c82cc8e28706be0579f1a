@@ -1,0 +1,25 @@
+1487192516a:1:{s:21:"modules/analytics.htm";a:6:{s:8:"fileName";s:21:"modules/analytics.htm";s:7:"content";s:542:"==
+<?php
+function onStart() {
+    $this['production'] = App::environment('production');
+}
+?>
+==
+{% if production %}
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+{% endif %}
+";s:5:"mtime";i:1487083115;s:6:"markup";s:437:"{% if production %}
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+{% endif %}";s:4:"code";s:82:"function onStart() {
+    $this['production'] = App::environment('production');
+}";s:17:"_PARSER_ERROR_INI";s:0:"";}}

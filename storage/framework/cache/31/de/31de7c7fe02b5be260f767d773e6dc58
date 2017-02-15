@@ -1,0 +1,76 @@
+1487192517a:1:{s:17:"blog-category.htm";a:10:{s:8:"fileName";s:17:"blog-category.htm";s:7:"content";s:1051:"title = "Blog category"
+url = "/blog/category/:slug/:page?"
+layout = "blog"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog-category"
+postPage = "blog-detail"
+==
+<?php
+function onEnd()
+{
+    if ($this->category) {
+        $this->page->title = $this->category->name;
+
+    } else {
+        $this->page->title = "Category not found!";
+        header("HTTP/1.0 404 Not Found");
+        flush();
+    }
+}
+?>
+==
+{% if category %}
+
+{% put title %}
+    {{ 'blog.category.title' | _ }} {{ category.name }}
+{% endput %}
+
+<div class="col-md-9 blog-feed-column">
+    {% component 'blogPosts' %}
+</div>
+
+<div class="col-md-3 sidebar">
+    {% partial 'modules/sidebar' %}
+</div>
+
+{% else %}
+<div class="col-md-12">
+    <p class="text-center">{{ 'blog.category.not_found' | _ }} <a href="{{ 'blog-list' | page }}">{{ 'blog.category.all_posts' | _ }}</a>.</p>
+</div>
+{% endif %}
+";s:5:"mtime";i:1487083115;s:6:"markup";s:474:"{% if category %}
+
+{% put title %}
+    {{ 'blog.category.title' | _ }} {{ category.name }}
+{% endput %}
+
+<div class="col-md-9 blog-feed-column">
+    {% component 'blogPosts' %}
+</div>
+
+<div class="col-md-3 sidebar">
+    {% partial 'modules/sidebar' %}
+</div>
+
+{% else %}
+<div class="col-md-12">
+    <p class="text-center">{{ 'blog.category.not_found' | _ }} <a href="{{ 'blog-list' | page }}">{{ 'blog.category.all_posts' | _ }}</a>.</p>
+</div>
+{% endif %}";s:4:"code";s:240:"function onEnd()
+{
+    if ($this->category) {
+        $this->page->title = $this->category->name;
+
+    } else {
+        $this->page->title = "Category not found!";
+        header("HTTP/1.0 404 Not Found");
+        flush();
+    }
+}";s:5:"title";s:13:"Blog category";s:3:"url";s:27:"/blog/category/:slug/:page?";s:6:"layout";s:4:"blog";s:9:"is_hidden";s:1:"0";s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:11:"{{ :slug }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:13:"blog-category";s:8:"postPage";s:11:"blog-detail";}}}

@@ -1,0 +1,61 @@
+1487192517a:1:{s:27:"samples/page-with-title.htm";a:9:{s:8:"fileName";s:27:"samples/page-with-title.htm";s:7:"content";s:2005:"title = "Page full width"
+url = "/page-with-title"
+layout = "titled"
+is_hidden = 0
+==
+<div class="row">
+    <div class="col-md-7">
+        <p>Vega Lite is a clean, fully responsive, and feature-packed free WordPress theme. It is well suited for personal, creative, business, photography and any other professional blogs or websites.</p>
+        <p>The theme is simple but full of options that allow you to customize many aspects of the layout. The Customizer gives you complete control over the home page layout, blog feed layout, posts, pages and other settings such as animation and sidebar display. There are multiple ways to set up page, post, and home page banners. The home page also has a full screen banner option. The theme comes pre-built with three color schemes: orange (default), green, and blue.</p>
+        <p>The theme is translation ready. It has also been optimized to work with several Jetpack features.</p>
+    </div>
+    <div class="col-md-5">
+        <p><img class="img-responsive" src="{{ 'assets/images/samples/about-img.jpg' | theme }}" alt="" /></p>
+    </div>
+</div>
+
+<div class="spacer" style="height: 60px"></div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3 class="block-title block-title-left">Our Strengths</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ipsa esse obcaecati repudiandae veniam amet modi recusandae optio earum sequi accusantium culpa vitae iste sit commodi eaque voluptatem officia quam.</p>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+        <h3 class="block-title block-title-left">Contact us today!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <ul class="icon-list">
+            <li><i class="fa fa-map-marker"></i>1234, Street Number, City, State</li>
+            <li><i class="fa fa-phone"></i>+1(123) 456 7890</li>
+            <li><i class="fa fa-envelope"></i>help@yourdomain.com</li>
+        </ul>
+    </div>
+</div>
+";s:5:"mtime";i:1487083115;s:6:"markup";s:1912:"<div class="row">
+    <div class="col-md-7">
+        <p>Vega Lite is a clean, fully responsive, and feature-packed free WordPress theme. It is well suited for personal, creative, business, photography and any other professional blogs or websites.</p>
+        <p>The theme is simple but full of options that allow you to customize many aspects of the layout. The Customizer gives you complete control over the home page layout, blog feed layout, posts, pages and other settings such as animation and sidebar display. There are multiple ways to set up page, post, and home page banners. The home page also has a full screen banner option. The theme comes pre-built with three color schemes: orange (default), green, and blue.</p>
+        <p>The theme is translation ready. It has also been optimized to work with several Jetpack features.</p>
+    </div>
+    <div class="col-md-5">
+        <p><img class="img-responsive" src="{{ 'assets/images/samples/about-img.jpg' | theme }}" alt="" /></p>
+    </div>
+</div>
+
+<div class="spacer" style="height: 60px"></div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3 class="block-title block-title-left">Our Strengths</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores ipsa esse obcaecati repudiandae veniam amet modi recusandae optio earum sequi accusantium culpa vitae iste sit commodi eaque voluptatem officia quam.</p>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+        <h3 class="block-title block-title-left">Contact us today!</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <ul class="icon-list">
+            <li><i class="fa fa-map-marker"></i>1234, Street Number, City, State</li>
+            <li><i class="fa fa-phone"></i>+1(123) 456 7890</li>
+            <li><i class="fa fa-envelope"></i>help@yourdomain.com</li>
+        </ul>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:15:"Page full width";s:3:"url";s:16:"/page-with-title";s:6:"layout";s:6:"titled";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,60 @@
+1487192516a:1:{s:21:"modules/copyright.htm";a:5:{s:8:"fileName";s:21:"modules/copyright.htm";s:7:"content";s:1076:"<div class="footer">
+    <div class="container">
+        <div class="row">
+
+            <!-- Navigation -->
+            <div class="col-md-8">
+                <ul id="menu-footer" class="nav-foot">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#">Terms</a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Copyright and Credits -->
+            <div class="col-md-4">
+                <div class="copyright">
+                    {{ this.theme.copyright_first | raw }}<br />
+                    {{ this.theme.copyright_second | raw }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1487083115;s:6:"markup";s:1074:"<div class="footer">
+    <div class="container">
+        <div class="row">
+
+            <!-- Navigation -->
+            <div class="col-md-8">
+                <ul id="menu-footer" class="nav-foot">
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#">Terms</a>
+                    </li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                        <a href="#">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Copyright and Credits -->
+            <div class="col-md-4">
+                <div class="copyright">
+                    {{ this.theme.copyright_first | raw }}<br />
+                    {{ this.theme.copyright_second | raw }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>";s:4:"code";N;}}
