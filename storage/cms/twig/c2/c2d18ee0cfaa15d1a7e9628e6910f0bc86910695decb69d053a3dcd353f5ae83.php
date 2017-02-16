@@ -154,8 +154,9 @@ class __TwigTemplate_90078ae8998502e9db4b0d30993e56abea7ee0f80497d9eae71ceb29d74
         // line 47
         echo $this->env->getExtension('CMS')->pageFunction();
         // line 48
-        echo "
-";
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('CMS')->partialFunction("prefooter"        , $context['__cms_partial_params']        );
+        unset($context['__cms_partial_params']);
         // line 49
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer-blue"        , $context['__cms_partial_params']        );
@@ -261,7 +262,7 @@ var jpfbembed = {\"appid\":\"249643311490\", \"locale\":\"en_US\"};
 
     public function getDebugInfo()
     {
-        return array (  247 => 77,  244 => 76,  237 => 75,  234 => 74,  232 => 71,  228 => 70,  224 => 69,  215 => 63,  211 => 62,  207 => 61,  203 => 60,  199 => 59,  195 => 58,  191 => 57,  187 => 56,  183 => 55,  179 => 54,  175 => 53,  172 => 52,  168 => 51,  164 => 50,  160 => 49,  157 => 48,  155 => 47,  152 => 46,  148 => 45,  144 => 44,  140 => 43,  129 => 41,  123 => 38,  119 => 37,  115 => 36,  111 => 35,  106 => 33,  102 => 32,  98 => 31,  95 => 30,  92 => 29,  86 => 26,  80 => 23,  74 => 20,  69 => 18,  65 => 17,  61 => 16,  57 => 15,  53 => 14,  49 => 13,  45 => 12,  40 => 10,  31 => 8,  22 => 2,  19 => 1,);
+        return array (  248 => 77,  245 => 76,  238 => 75,  235 => 74,  233 => 71,  229 => 70,  225 => 69,  216 => 63,  212 => 62,  208 => 61,  204 => 60,  200 => 59,  196 => 58,  192 => 57,  188 => 56,  184 => 55,  180 => 54,  176 => 53,  173 => 52,  169 => 51,  165 => 50,  161 => 49,  157 => 48,  155 => 47,  152 => 46,  148 => 45,  144 => 44,  140 => 43,  129 => 41,  123 => 38,  119 => 37,  115 => 36,  111 => 35,  106 => 33,  102 => 32,  98 => 31,  95 => 30,  92 => 29,  86 => 26,  80 => 23,  74 => 20,  69 => 18,  65 => 17,  61 => 16,  57 => 15,  53 => 14,  49 => 13,  45 => 12,  40 => 10,  31 => 8,  22 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -321,7 +322,7 @@ var jpfbembed = {\"appid\":\"249643311490\", \"locale\":\"en_US\"};
 {% partial 'header-ceek' %}
 
 {% page %}
-
+{% partial 'prefooter' %}
 {% partial 'footer-blue' %}
 {% partial 'my-footer' %}
 {% partial 'modules/elevator' %}

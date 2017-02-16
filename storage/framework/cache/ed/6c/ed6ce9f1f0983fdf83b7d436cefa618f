@@ -1,4 +1,4 @@
-1487260905a:1:{s:13:"my-footer.htm";a:6:{s:8:"fileName";s:13:"my-footer.htm";s:7:"content";s:2199:"[viewBag]
+1487281935a:1:{s:13:"my-footer.htm";a:6:{s:8:"fileName";s:13:"my-footer.htm";s:7:"content";s:2246:"[viewBag]
 ==
 <div class="footer" style="padding: 10px 0 10px;background-color: #b7b7b7;">
       <div class="container">
@@ -13,7 +13,7 @@
             <div class="col s5"></div>
             <!-- Navigation -->
             <div class="col s3">
-               <div class="textwidget">
+               <div class="textwidget" style="text-align: right;padding-right: 35px;">
                         
                         {% if this.theme.social_facebook %}
                         <a href="{{ this.theme.social_facebook }}" class="margena"><i class="fa fa-facebook" style="color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;"></i></a>
@@ -35,7 +35,7 @@
 
         </div>
     </div>
-</div>";s:5:"mtime";i:1487259626;s:6:"markup";s:2184:"<div class="footer" style="padding: 10px 0 10px;background-color: #b7b7b7;">
+</div>";s:5:"mtime";i:1487272616;s:6:"markup";s:2231:"<div class="footer" style="padding: 10px 0 10px;background-color: #b7b7b7;">
       <div class="container">
         <div class="row" style="margin-bottom: 0px;">
  <!-- Copyright and Credits -->
@@ -48,7 +48,7 @@
             <div class="col s5"></div>
             <!-- Navigation -->
             <div class="col s3">
-               <div class="textwidget">
+               <div class="textwidget" style="text-align: right;padding-right: 35px;">
                         
                         {% if this.theme.social_facebook %}
                         <a href="{{ this.theme.social_facebook }}" class="margena"><i class="fa fa-facebook" style="color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;"></i></a>

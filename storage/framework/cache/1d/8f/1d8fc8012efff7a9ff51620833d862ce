@@ -1,4 +1,4 @@
-1487260904a:1:{s:9:"plain.htm";a:9:{s:8:"fileName";s:9:"plain.htm";s:7:"content";s:5037:"description = "Plain layout for sections"
+1487281934a:1:{s:9:"plain.htm";a:9:{s:8:"fileName";s:9:"plain.htm";s:7:"content";s:5062:"description = "Plain layout for sections"
 
 [simpleContact]
 nameTitle = "Full Name"
@@ -70,7 +70,7 @@ function onStart() {
 {% partial 'header-ceek' %}
 
 {% page %}
-
+{% partial 'prefooter' %}
 {% partial 'footer-blue' %}
 {% partial 'my-footer' %}
 {% partial 'modules/elevator' %}
@@ -101,7 +101,7 @@ var jpfbembed = {"appid":"249643311490", "locale":"en_US"};
 {% scripts %}
 
 </body>
-</html>";s:5:"mtime";i:1487254745;s:6:"markup";s:4570:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1487273579;s:6:"markup";s:4595:"<!DOCTYPE html>
 <html lang="{{ this.theme.site_locale }}">
 <head>
     <meta charset="UTF-8" />
@@ -148,7 +148,7 @@ var jpfbembed = {"appid":"249643311490", "locale":"en_US"};
 {% partial 'header-ceek' %}
 
 {% page %}
-
+{% partial 'prefooter' %}
 {% partial 'footer-blue' %}
 {% partial 'my-footer' %}
 {% partial 'modules/elevator' %}

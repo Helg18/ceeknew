@@ -32,7 +32,7 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
             <div class=\"col s5\"></div>
             <!-- Navigation -->
             <div class=\"col s3\">
-               <div class=\"textwidget\">
+               <div class=\"textwidget\" style=\"text-align: right;padding-right: 35px;\">
                         
                         ";
         // line 16
@@ -120,7 +120,7 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
             <div class=\"col s5\"></div>
             <!-- Navigation -->
             <div class=\"col s3\">
-               <div class=\"textwidget\">
+               <div class=\"textwidget\" style=\"text-align: right;padding-right: 35px;\">
                         
                         {% if this.theme.social_facebook %}
                         <a href=\"{{ this.theme.social_facebook }}\" class=\"margena\"><i class=\"fa fa-facebook\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"></i></a>
