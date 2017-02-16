@@ -1,0 +1,6 @@
+plugin:
+    name: 'ceeks.carrers::lang.plugin.name'
+    description: 'ceeks.carrers::lang.plugin.description'
+    author: 'Martin Guadama'
+    icon: oc-icon-briefcase
+    homepage: ''
