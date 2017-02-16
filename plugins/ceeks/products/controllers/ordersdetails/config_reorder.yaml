@@ -1,0 +1,4 @@
+title: OrdersDetails
+modelClass: Ceeks\Products\Models\OrdersDetails
+toolbar:
+    buttons: reorder_toolbar

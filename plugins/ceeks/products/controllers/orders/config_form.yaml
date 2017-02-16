@@ -1,0 +1,10 @@
+name: Orders
+form: $/ceeks/products/models/orders/fields.yaml
+modelClass: Ceeks\Products\Models\Orders
+defaultRedirect: ceeks/products/orders
+create:
+    redirect: 'ceeks/products/orders/update/:id'
+    redirectClose: ceeks/products/orders
+update:
+    redirect: ceeks/products/orders
+    redirectClose: ceeks/products/orders

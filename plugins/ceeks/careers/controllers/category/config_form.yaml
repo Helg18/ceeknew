@@ -1,0 +1,10 @@
+name: Category
+form: $/ceeks/careers/models/category/fields.yaml
+modelClass: Ceeks\Careers\Models\Category
+defaultRedirect: ceeks/careers/category
+create:
+    redirect: 'ceeks/careers/category/update/:id'
+    redirectClose: ceeks/careers/category
+update:
+    redirect: ceeks/careers/category
+    redirectClose: ceeks/careers/category
