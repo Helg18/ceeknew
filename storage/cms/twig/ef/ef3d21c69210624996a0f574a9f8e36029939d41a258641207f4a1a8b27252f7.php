@@ -40,7 +40,7 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
             // line 17
             echo "                        <a href=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "social_facebook", array()), "html", null, true);
-            echo "\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/facebook.png\" style=\"width: 30px;\"></a>
+            echo "\" class=\"margena\"><i class=\"fa fa-facebook\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"></i></a>
                         ";
         }
         // line 19
@@ -49,7 +49,7 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
             // line 20
             echo "                        <a href=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "social_twitter", array()), "html", null, true);
-            echo "\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/twitter.png\" style=\"width: 30px;\"></a>
+            echo "\" class=\"margena\"><i class=\"fa fa-twitter\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"></i></a>
                         ";
         }
         // line 22
@@ -58,7 +58,7 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
             // line 23
             echo "                      <a href=\"";
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "social_instagram", array()), "html", null, true);
-            echo "\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/instagram.png\" style=\"width: 30px;\"></a>
+            echo "\" class=\"margena\"><i class=\"fa fa-instagram\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"> </i></a>
                         ";
         }
         // line 25
@@ -66,8 +66,8 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
         if ($this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "social_linkedin", array())) {
             // line 26
             echo "                       <a href=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "social_facebook", array()), "html", null, true);
-            echo "\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/youtube.png\" style=\"width: 30px;\"></a>
+            echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute((isset($context["this"]) ? $context["this"] : null), "theme", array()), "social_linkedin", array()), "html", null, true);
+            echo "\" class=\"margena\"><i class=\"fa fa-youtube-play\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"> </i></a>
                         ";
         }
         // line 28
@@ -123,16 +123,16 @@ class __TwigTemplate_e4f30022a94b5dd0675d8aab29298acfb315aaa565560d7e31f811e8f56
                <div class=\"textwidget\">
                         
                         {% if this.theme.social_facebook %}
-                        <a href=\"{{ this.theme.social_facebook }}\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/facebook.png\" style=\"width: 30px;\"></a>
+                        <a href=\"{{ this.theme.social_facebook }}\" class=\"margena\"><i class=\"fa fa-facebook\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"></i></a>
                         {% endif %}
                         {% if this.theme.social_twitter %}
-                        <a href=\"{{ this.theme.social_twitter }}\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/twitter.png\" style=\"width: 30px;\"></a>
+                        <a href=\"{{ this.theme.social_twitter }}\" class=\"margena\"><i class=\"fa fa-twitter\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"></i></a>
                         {% endif %}
                         {% if this.theme.social_instagram %}
-                      <a href=\"{{ this.theme.social_instagram }}\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/instagram.png\" style=\"width: 30px;\"></a>
+                      <a href=\"{{ this.theme.social_instagram }}\" class=\"margena\"><i class=\"fa fa-instagram\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"> </i></a>
                         {% endif %}
                         {% if this.theme.social_linkedin %}
-                       <a href=\"{{ this.theme.social_facebook }}\" class=\"margena\"><img src=\"http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/youtube.png\" style=\"width: 30px;\"></a>
+                       <a href=\"{{ this.theme.social_linkedin }}\" class=\"margena\"><i class=\"fa fa-youtube-play\" style=\"color: white;border-radius: 15px;border: 2px solid;font-size: 18px;width: 27px;height: 27px;text-align: center;padding-top: 3px;\"> </i></a>
                         {% endif %}
                     </div>
             </div>

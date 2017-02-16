@@ -1,4 +1,4 @@
-1487256987a:1:{s:20:"blogPost/default.htm";a:5:{s:8:"fileName";s:20:"blogPost/default.htm";s:7:"content";s:1443:"{% set post = __SELF__.post %}
+1487260905a:1:{s:20:"blogPost/default.htm";a:5:{s:8:"fileName";s:20:"blogPost/default.htm";s:7:"content";s:1443:"{% set post = __SELF__.post %}
 
 <div class="clearfix post type-post status-publish format-standard has-post-thumbnail hentry">
 
