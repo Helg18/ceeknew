@@ -1,0 +1,38 @@
+[viewBag]
+==
+<div class="footer" style="padding: 10px 0 10px;background-color: #b7b7b7;">
+      <div class="container">
+        <div class="row" style="margin-bottom: 0px;">
+ <!-- Copyright and Credits -->
+            <div class="col s4" style="padding: 12px 0;">
+                <div class="copyright" style="text-align: left;font-weight: bold;">
+                    {{ this.theme.copyright_first | raw }}
+                   
+                </div>
+            </div>
+            <div class="col s5"></div>
+            <!-- Navigation -->
+            <div class="col s3">
+               <div class="textwidget">
+                        
+                        {% if this.theme.social_facebook %}
+                        <a href="{{ this.theme.social_facebook }}" class="margena"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/facebook.png" style="width: 30px;"></a>
+                        {% endif %}
+                        {% if this.theme.social_twitter %}
+                        <a href="{{ this.theme.social_twitter }}" class="margena"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/twitter.png" style="width: 30px;"></a>
+                        {% endif %}
+                        {% if this.theme.social_instagram %}
+                      <a href="{{ this.theme.social_instagram }}" class="margena"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/instagram.png" style="width: 30px;"></a>
+                        {% endif %}
+                        {% if this.theme.social_linkedin %}
+                       <a href="{{ this.theme.social_facebook }}" class="margena"><img src="http://localhost/ceeknew/themes/vojtasvoboda-vega%20pro/assets/images/youtube.png" style="width: 30px;"></a>
+                        {% endif %}
+                    </div>
+            </div>
+            
+            
+           
+
+        </div>
+    </div>
+</div>
