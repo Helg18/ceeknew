@@ -1,4 +1,4 @@
-1487198181a:1:{s:18:"modules/footer.htm";a:6:{s:8:"fileName";s:18:"modules/footer.htm";s:7:"content";s:4142:"[blogCategories]
+1487252438a:1:{s:18:"modules/footer.htm";a:6:{s:8:"fileName";s:18:"modules/footer.htm";s:7:"content";s:4142:"[blogCategories]
 slug = "{{ :slug }}"
 displayEmpty = 1
 categoryPage = "blog-category"
