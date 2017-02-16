@@ -1,5 +1,5 @@
 <?php 
-use RainLab\Translate\Models\Message;class Cms58a472e734aff223902003_1744672673Class extends \Cms\Classes\LayoutCode
+use RainLab\Translate\Models\Message;class Cms58a5b4dd94b46366870471_1169083418Class extends \Cms\Classes\LayoutCode
 {
 
 public function onStart() {
