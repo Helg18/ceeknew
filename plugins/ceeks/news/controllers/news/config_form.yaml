@@ -1,0 +1,10 @@
+name: News
+form: $/ceeks/news/models/news/fields.yaml
+modelClass: Ceeks\News\Models\News
+defaultRedirect: ceeks/news/news
+create:
+    redirect: 'ceeks/news/news/update/:id'
+    redirectClose: ceeks/news/news
+update:
+    redirect: ceeks/news/news
+    redirectClose: ceeks/news/news

@@ -1,0 +1,10 @@
+name: Authors
+form: $/ceeks/news/models/author/fields.yaml
+modelClass: Ceeks\News\Models\Author
+defaultRedirect: ceeks/news/authors
+create:
+    redirect: 'ceeks/news/authors/update/:id'
+    redirectClose: ceeks/news/authors
+update:
+    redirect: ceeks/news/authors
+    redirectClose: ceeks/news/authors
