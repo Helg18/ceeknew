@@ -1,4 +1,0 @@
-title: Careers
-modelClass: Ceeks\Careers\Models\Careers
-toolbar:
-    buttons: reorder_toolbar
