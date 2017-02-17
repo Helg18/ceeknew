@@ -1,0 +1,4 @@
+title: Category
+modelClass: Ceeks\Carrers\Models\Category
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,33 @@
+columns:
+    id:
+        label: id
+        type: number
+        invisible: true
+    title:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    # description:
+    #     label: description
+    #     type: text
+    location:
+        label: location
+        type: text
+        sortable: true
+    published:
+        label: published
+        type: text
+        sortable: true
+    slug:
+        label: slug
+        type: text
+        invisible: true
+    created_at:
+        label: created_at
+        type: datetime
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true

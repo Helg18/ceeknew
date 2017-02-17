@@ -1,0 +1,11 @@
+name: Careers
+modelClass: Ceeks\Carrers\Models\Career
+form: $/ceeks/carrers/models/career/fields.yaml
+defaultRedirect: ceeks/carrers/careers
+create:
+    redirect: 'ceeks/carrers/careers/update/:id'
+    redirectClose: ceeks/carrers/careers
+update:
+    redirect: ceeks/carrers/careers
+    redirectClose: ceeks/carrers/careers
+preview: {  }

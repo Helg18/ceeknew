@@ -1,0 +1,32 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+        preset: title
+    description:
+        label: Description
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: richeditor
+    location:
+        label: Location
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    published:
+        label: Publish
+        span: auto
+        default: 1
+        required: 1
+        type: checkbox

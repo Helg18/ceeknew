@@ -4,3 +4,21 @@ plugin:
     author: 'Martin Guadama'
     icon: oc-icon-briefcase
     homepage: ''
+navigation:
+    main-menu-item:
+        label: Careers
+        url: ceeks/carrers/careers
+        icon: icon-briefcase
+        sideMenu:
+            side-menu-item:
+                label: Career
+                url: ceeks/carrers/careers
+                icon: icon-plus
+            side-menu-item2:
+                label: Category
+                url: ceeks/carrers/category
+                icon: icon-sitemap
+            side-menu-item3:
+                label: Applicant
+                url: ceeks/carrers/applicant
+                icon: icon-user
