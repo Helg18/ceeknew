@@ -25,4 +25,7 @@ class Category extends Model
      * @var string The database table used by the model.
      */
     public $table = 'ceeks_carrers_category';
+
+
+    
 }

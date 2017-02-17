@@ -24,14 +24,15 @@ class Product extends Model
     ];
 
     public function getImageAttribute(){
-        $image=File::
-        // select('disk_name')
-        where('attachment_id',$this->id)
-        ->where('field','image')
-        ->where('attachment_type','Ceeks\Products\Models\Product')
-        ->get();
-        $img= $image->last()->getThumb(150,150,["mode"=>'auto']);
-        echo ("<img src='$img'/>");
+        if($this->id){
+                $image=File::
+                where('attachment_id',$this->id)
+                ->where('field','image')
+                ->where('attachment_type','Ceeks\Products\Models\Product')
+                ->get();
+                $img= $image->last()->getThumb(150,150,["mode"=>'auto']);
+                echo ("<img src='$img'/>");
+            }
     }
     
     /**

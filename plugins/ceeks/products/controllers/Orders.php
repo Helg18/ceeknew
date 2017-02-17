@@ -14,7 +14,7 @@ class Orders extends Controller
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Ceeks.Products', 'main-menu-item');
+        BackendMenu::setContext('Ceeks.Products', 'main-menu-item','side-menu-item2');
 
     }
 }
