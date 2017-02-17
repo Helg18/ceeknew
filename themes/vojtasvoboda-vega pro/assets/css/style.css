@@ -843,32 +843,32 @@ img.aligncenter { max-width:100%; height:auto;}
     .frontpage-banner.frontpage-banner-parallax-bg{padding:100px 0;}
     .frontpage-banner.image-banner.frontpage-banner .block-title{font-size:36px;}
     .frontpage-banner.image-banner p {font-size: 18px;}
-    .button-collapse{display: block;}
+    .button-collapse{display: block!important;}
 }
 @media (min-width:768px){
 	.image-banner.full-screen{ height:1024px; }
     .frontpage-banner.image-banner.frontpage-banner .block-title{font-size:48px;}
     .frontpage-banner.image-banner p {font-size: 20px; font-weight:bold;}
     .frontpage-banner.frontpage-banner-parallax-bg{padding:120px 0;}
-    .button-collapse{display: block;}
+    .button-collapse{display: block!important;}
 }
 @media (min-width:1280px){
 	.image-banner.full-screen{ height:720px; }
     .frontpage-banner.frontpage-banner-parallax-bg{ margin:0; padding:180px 0 160px; } 
-    .button-collapse{display: block;}
+    .button-collapse{display: block!important;}
 }
 @media (min-width:1440px){
 	.image-banner.full-screen{ height:900px; }
     .frontpage-banner.frontpage-banner-parallax-bg{ margin:0; padding:180px 0 160px; } 
-    .button-collapse{display: block;}
+    .button-collapse{display: block!important;}
 }
 @media (min-width:1366px){
     .image-banner.full-screen{height:768px; }
     .frontpage-banner.frontpage-banner-parallax-bg{ margin:0; padding:180px 0 160px; } 
-    .button-collapse{display: block;}
+    .button-collapse{display: block!important;}
 }
 @media (min-width:1920px){
 	.image-banner.full-screen{ height:1080px; }
     .frontpage-banner.frontpage-banner-parallax-bg{ margin:0; padding:180px 0 160px; } 
-    .button-collapse{display: block;}
+    .button-collapse{display: block!important;}
 }
