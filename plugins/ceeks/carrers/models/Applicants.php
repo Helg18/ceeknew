@@ -19,4 +19,14 @@ class Applicants extends Model
      * @var string The database table used by the model.
      */
     public $table = 'ceeks_carrers_applicant';
+
+
+    /*
+    *   Relations
+    */
+    public $attachOne=[
+        'resume_cv' => ['System\Models\File'],
+        'cover_letter' => ['System\Models\File']
+    ];
+
 }

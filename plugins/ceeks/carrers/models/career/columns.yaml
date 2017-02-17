@@ -19,15 +19,16 @@ columns:
         label: published
         type: text
         sortable: true
+        invisible: true
     slug:
         label: slug
         type: text
         invisible: true
     created_at:
         label: created_at
-        type: datetime
+        type: timesince
         sortable: true
-    updated_at:
-        label: updated_at
-        type: datetime
-        invisible: true
+    # updated_at:
+    #     label: updated_at
+    #     type: datetime
+    #     invisible: true
