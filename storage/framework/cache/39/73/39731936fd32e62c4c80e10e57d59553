@@ -1,4 +1,4 @@
-1487281935a:1:{s:18:"sections/posts.htm";a:7:{s:8:"fileName";s:18:"sections/posts.htm";s:7:"content";s:3109:"[blogPosts]
+1487369430a:1:{s:18:"sections/posts.htm";a:7:{s:8:"fileName";s:18:"sections/posts.htm";s:7:"content";s:3109:"[blogPosts]
 pageNumber = "{{ :page }}"
 postsPerPage = 3
 noPostsMessage = "No posts found."

@@ -1,4 +1,4 @@
-1487281935a:1:{s:21:"blogPosts/default.htm";a:5:{s:8:"fileName";s:21:"blogPosts/default.htm";s:7:"content";s:2224:"{% set posts = __SELF__.posts %}
+1487369430a:1:{s:21:"blogPosts/default.htm";a:5:{s:8:"fileName";s:21:"blogPosts/default.htm";s:7:"content";s:2224:"{% set posts = __SELF__.posts %}
 
 {% for post in posts %}
 <div class="entry clearfix wow zoomIn post type-post status-publish format-standard has-post-thumbnail sticky hentry">

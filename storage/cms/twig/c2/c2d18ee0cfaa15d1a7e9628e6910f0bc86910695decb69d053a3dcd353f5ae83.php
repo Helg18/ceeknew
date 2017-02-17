@@ -150,69 +150,70 @@ class __TwigTemplate_90078ae8998502e9db4b0d30993e56abea7ee0f80497d9eae71ceb29d74
         unset($context['__cms_partial_params']);
         // line 46
         echo "
+
 ";
-        // line 47
-        echo $this->env->getExtension('CMS')->pageFunction();
         // line 48
+        echo $this->env->getExtension('CMS')->pageFunction();
+        // line 49
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("prefooter"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 49
+        // line 50
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("footer-blue"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 50
+        // line 51
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("my-footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 51
+        // line 52
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("modules/elevator"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 52
+        // line 53
         echo "
 <script type=\"text/javascript\" src=\"";
-        // line 53
+        // line 54
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 54
+        // line 55
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery-migrate.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 55
+        // line 56
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery.form.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 56
+        // line 57
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery.blockUI.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 57
+        // line 58
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/bootstrap.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 58
+        // line 59
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery.smartmenus.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 59
+        // line 60
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jquery.smartmenus.bootstrap.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 60
+        // line 61
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/wow.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 61
+        // line 62
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/vega-wp-anim.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 62
+        // line 63
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/parallax.min.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 63
+        // line 64
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/vega-wp.js");
         echo "\"></script>
 <script type=\"text/javascript\">
@@ -221,30 +222,30 @@ var jpfbembed = {\"appid\":\"249643311490\", \"locale\":\"en_US\"};
 /* ]]> */
 </script>
 <script type=\"text/javascript\" src=\"";
-        // line 69
+        // line 70
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/jetpack/facebook-embed.js");
         echo "\"></script>
 <script type=\"text/javascript\" src=\"";
-        // line 70
+        // line 71
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/wp-embed.min.js");
         echo "\"></script>
  <script  type=\"text/javascript\"   src=\"";
-        // line 71
+        // line 72
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/js/materialize.min.js");
-        // line 74
+        // line 75
         echo "\"></script>
 ";
-        // line 75
+        // line 76
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 76
+        // line 77
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 77
+        // line 78
         echo "
 </body>
 </html>";
@@ -262,7 +263,7 @@ var jpfbembed = {\"appid\":\"249643311490\", \"locale\":\"en_US\"};
 
     public function getDebugInfo()
     {
-        return array (  248 => 77,  245 => 76,  238 => 75,  235 => 74,  233 => 71,  229 => 70,  225 => 69,  216 => 63,  212 => 62,  208 => 61,  204 => 60,  200 => 59,  196 => 58,  192 => 57,  188 => 56,  184 => 55,  180 => 54,  176 => 53,  173 => 52,  169 => 51,  165 => 50,  161 => 49,  157 => 48,  155 => 47,  152 => 46,  148 => 45,  144 => 44,  140 => 43,  129 => 41,  123 => 38,  119 => 37,  115 => 36,  111 => 35,  106 => 33,  102 => 32,  98 => 31,  95 => 30,  92 => 29,  86 => 26,  80 => 23,  74 => 20,  69 => 18,  65 => 17,  61 => 16,  57 => 15,  53 => 14,  49 => 13,  45 => 12,  40 => 10,  31 => 8,  22 => 2,  19 => 1,);
+        return array (  249 => 78,  246 => 77,  239 => 76,  236 => 75,  234 => 72,  230 => 71,  226 => 70,  217 => 64,  213 => 63,  209 => 62,  205 => 61,  201 => 60,  197 => 59,  193 => 58,  189 => 57,  185 => 56,  181 => 55,  177 => 54,  174 => 53,  170 => 52,  166 => 51,  162 => 50,  158 => 49,  156 => 48,  152 => 46,  148 => 45,  144 => 44,  140 => 43,  129 => 41,  123 => 38,  119 => 37,  115 => 36,  111 => 35,  106 => 33,  102 => 32,  98 => 31,  95 => 30,  92 => 29,  86 => 26,  80 => 23,  74 => 20,  69 => 18,  65 => 17,  61 => 16,  57 => 15,  53 => 14,  49 => 13,  45 => 12,  40 => 10,  31 => 8,  22 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -320,6 +321,7 @@ var jpfbembed = {\"appid\":\"249643311490\", \"locale\":\"en_US\"};
 {% partial 'modules/analytics' %}
 {% partial 'modules/header' %}
 {% partial 'header-ceek' %}
+
 
 {% page %}
 {% partial 'prefooter' %}

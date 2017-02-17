@@ -1,4 +1,4 @@
-1487281937a:1:{s:15:"blog-detail.htm";a:10:{s:8:"fileName";s:15:"blog-detail.htm";s:7:"content";s:1010:"title = "Blog detail"
+1487369431a:1:{s:15:"blog-detail.htm";a:10:{s:8:"fileName";s:15:"blog-detail.htm";s:7:"content";s:1010:"title = "Blog detail"
 url = "/blog/:slug|[^0-9]"
 layout = "blog"
 is_hidden = 0
