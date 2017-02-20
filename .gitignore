@@ -1,3 +1,7 @@
+storage/**/*
+storage/cache/*
+storage/framework/sessions/*
+storafe/framework/cache/*
 .env
 .DS_Store
 *.log
