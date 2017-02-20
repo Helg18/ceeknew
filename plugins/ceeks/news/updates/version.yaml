@@ -1,0 +1,23 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ceeks_news_category'
+    - builder_table_create_ceeks_news_category.php
+1.0.3:
+    - 'Updated table ceeks_news_category'
+    - builder_table_update_ceeks_news_category.php
+1.0.4:
+    - 'Created table ceeks_news_'
+    - builder_table_create_ceeks_news_.php
+1.0.5:
+    - 'Updated table ceeks_news_category'
+    - builder_table_update_ceeks_news_author.php
+1.0.6:
+    - 'Created table ceeks_news_authors'
+    - builder_table_create_ceeks_news_authors.php
+1.0.7:
+    - 'Drop table ceeks_news_authors'
+    - builder_table_delete_ceeks_news_authors.php
+1.0.8:
+    - 'Updated table ceeks_news_'
+    - builder_table_update_ceeks_news_.php

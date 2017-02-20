@@ -1,0 +1,10 @@
+name: Applicant
+form: $/ceeks/carrers/models/applicants/fields.yaml
+modelClass: Ceeks\Carrers\Models\Applicants
+defaultRedirect: ceeks/carrers/applicant
+create:
+    redirect: 'ceeks/carrers/applicant/update/:id'
+    redirectClose: ceeks/carrers/applicant
+update:
+    redirect: ceeks/carrers/applicant
+    redirectClose: ceeks/carrers/applicant

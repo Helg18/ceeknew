@@ -1,0 +1,45 @@
+tabs:
+    fields:
+        title:
+            label: Title
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: text
+            tab: Content
+        slug:
+            label: Slug
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: text
+            preset: title
+            tab: Content
+        description:
+            label: Description
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: richeditor
+            tab: Content
+        location:
+            label: Location
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: text
+            tab: Content
+        published:
+            label: is_Published
+            span: auto
+            default: 1
+            required: 1
+            type: checkbox
+            tab: Configuration
+        category_id:
+            label: Category
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: dropdown
+            tab: Configuration

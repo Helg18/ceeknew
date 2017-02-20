@@ -1,0 +1,20 @@
+{
+  "name": "ceeknew",
+  "version": "1.0.0",
+  "description": "Laravel elixir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://renatoapknato@bitbucket.org/ernesto2016/ceeknew.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/ernesto2016/ceeknew#readme",
+  "devDependencies": {
+    "laravel-elixir": "^6.0.0-15",
+    "laravel-elixir-livereload": "^1.1.6"
+  }
+}

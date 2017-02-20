@@ -1,0 +1,11 @@
+list: $/ceeks/products/models/ordersdetails/columns.yaml
+modelClass: Ceeks\Products\Models\OrdersDetails
+title: OrdersDetails
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ceeks/products/ordersdetails/update/:id'

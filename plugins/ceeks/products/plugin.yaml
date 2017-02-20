@@ -1,0 +1,24 @@
+plugin:
+    name: 'ceeks.products::lang.plugin.name'
+    description: 'ceeks.products::lang.plugin.description'
+    author: 'Martin Guadama'
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Products
+        url: ceeks/products/product
+        icon: icon-cart-plus
+        sideMenu:
+            side-menu-item:
+                label: 'ceeks.products::lang.plugin.name'
+                url: ceeks/products/product
+                icon: icon-plus-circle
+            side-menu-item2:
+                label: Orders
+                url: ceeks/products/orders
+                icon: icon-list-alt
+            side-menu-item3:
+                label: OrderDetails
+                url: ceeks/products/ordersdetails
+                icon: icon-list-ol

@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: ID
+        type: number
+    pro_id:
+        label: Product_ID
+        type: number
+    ord_id:
+        label: Order_ID
+        type: number
+    price:
+        label: Price
+        type: text
+    shipping:
+        label: Shipping
+        type: text
+    quantity:
+        label: quantity
+        type: number
+    status:
+        label: Status
+        type: text
