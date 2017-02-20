@@ -1,0 +1,50 @@
+tabs:
+    fields:
+        title:
+            label: Title
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            type: text
+            tab: Information
+        slug:
+            label: Slug
+            oc.commentPosition: ''
+            span: auto
+            required: 1
+            preset:
+                field: title
+                type: slug
+            type: text
+            tap: 1
+            tab: Information
+        author_id:
+            label: Author
+            span: auto
+            oc.commentPosition: ''
+            required: 1
+            type: dropdown
+            tab: Information
+        is_published:
+            label: 'Is Published'
+            span: auto
+            default: 1
+            required: 1
+            type: checkbox
+            tab: Information
+        short_description:
+            label: 'Short Description'
+            oc.commentPosition: ''
+            span: full
+            required: 1
+            type: text
+            tab: Content
+        description:
+            label: Description
+            size: huge
+            oc.commentPosition: ''
+            span: full
+            required: 1
+            stretch: 0
+            type: richeditor
+            tab: Content

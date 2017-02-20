@@ -1,0 +1,20 @@
+plugin:
+    name: 'ceeks.news::lang.plugin.name'
+    description: 'ceeks.news::lang.plugin.description'
+    author: 'Martin Guadama'
+    icon: oc-icon-newspaper-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: News
+        url: ceeks/news/news
+        icon: icon-newspaper-o
+        sideMenu:
+            side-menu-item:
+                label: New
+                url: ceeks/news/news
+                icon: icon-plus-circle
+            side-menu-item2:
+                label: Author
+                url: ceeks/news/authors
+                icon: icon-pencil-square
