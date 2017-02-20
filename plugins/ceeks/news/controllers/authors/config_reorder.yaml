@@ -1,0 +1,4 @@
+title: Authors
+modelClass: Ceeks\News\Models\Author
+toolbar:
+    buttons: reorder_toolbar
