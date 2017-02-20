@@ -1,0 +1,11 @@
+title: Authors
+modelClass: Ceeks\News\Models\Author
+list: $/ceeks/news/models/author/columns.yaml
+recordUrl: 'ceeks/news/authors/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

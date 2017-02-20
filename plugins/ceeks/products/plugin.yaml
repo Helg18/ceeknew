@@ -11,10 +11,14 @@ navigation:
         icon: icon-cart-plus
         sideMenu:
             side-menu-item:
+                label: 'ceeks.products::lang.plugin.name'
+                url: ceeks/products/product
+                icon: icon-plus-circle
+            side-menu-item2:
                 label: Orders
                 url: ceeks/products/orders
                 icon: icon-list-alt
-            side-menu-item2:
+            side-menu-item3:
                 label: OrderDetails
                 url: ceeks/products/ordersdetails
                 icon: icon-list-ol

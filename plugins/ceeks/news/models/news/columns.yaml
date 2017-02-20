@@ -1,0 +1,40 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: true
+    title:
+        label: Title
+        type: text
+        sortable: true
+    description:
+        label: Description
+        type: text
+        invisible: true
+    short_description:
+        label: 'Short Description'
+        type: text
+        invisible: true
+    slug:
+        label: Slug
+        type: text
+        invisible: false
+    is_published:
+        label: 'Is Published'
+        type: text
+        invisible: false
+        sortable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: false
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    author_id:
+        label: Author
+        type: text
+        sortable: true
+        invisible: true

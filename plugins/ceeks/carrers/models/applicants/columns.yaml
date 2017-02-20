@@ -1,0 +1,38 @@
+columns:
+    id:
+        label: id
+        type: number
+        sortable: true
+    firstname:
+        label: firstname
+        type: text
+        sortable: true
+    lastname:
+        label: lastname
+        type: text
+        sortable: true
+    phone:
+        label: phone
+        type: text
+    email:
+        label: email
+        type: text
+    linked_profile:
+        label: linked_profile
+        type: text
+    # resume_cv:
+    #     label: resume_cv
+    #     type: text
+    #     invisible: true
+    # cover_letter:
+    #     label: cover_letter
+    #     type: text
+    #     invisible: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true

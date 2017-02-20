@@ -1,35 +1,43 @@
 columns:
     id:
-        label: id
+        label: ID
         type: number
-    created_at:
-        label: created_at
-        type: datetime
-    updated_at:
-        label: updated_at
-        type: datetime
     title:
-        label: title
-        type: 
-        sortable: true
-    short_description:
-        label: short_description
+        label: Title
         type: text
-    description:
-        label: description
-        type: text
-    quantity:
-        label: quantity
-        type: number
         sortable: true
     price:
-        label: price
+        label: Price
+        type: number
+        sortable: true
+    short_description:
+        label: 'Short Description'
         type: text
-        sortable: true  
+    description:
+        label: Description
+        type: text
+        invisible: true
+    quantity:
+        label: Quantity
+        type: number
+        invisible: true
+        sortable: true
     status:
-        label: status
+        label: Status
         type: text
         sortable: true
     slug:
         label: slug
+        type: text
+        invisible: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        invisible: true
+    image:
+        label: Preview
         type: text

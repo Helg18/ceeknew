@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ceeks_carrers_category'
+    - builder_table_create_ceeks_carrers_category.php
+1.0.3:
+    - 'Created table ceeks_carrers_'
+    - builder_table_create_ceeks_carrers_.php
+1.0.4:
+    - 'Created table ceeks_carrers_applicant'
+    - builder_table_create_ceeks_carrers_applicant.php
+1.0.5:
+    - 'Created table ceeks_carrers_applicants'
+    - builder_table_create_ceeks_carrers_applicants.php
+1.0.6:
+    - 'Updated table ceeks_carrers_'
+    - builder_table_update_ceeks_carrers_.php

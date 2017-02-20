@@ -1,0 +1,4 @@
+title: Applicant
+modelClass: Ceeks\Carrers\Models\Applicants
+toolbar:
+    buttons: reorder_toolbar

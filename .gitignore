@@ -5,3 +5,7 @@ storafe/framework/cache/*
 .env
 .DS_Store
 *.log
+storage/**/*
+storage/framework/cache/*
+storage/framework/sessions/*
+node_modules/
